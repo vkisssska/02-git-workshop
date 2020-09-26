@@ -19,9 +19,9 @@ int melodyLength = 4;
 Button buttonMelodyTwo(PIN_BUTTON_MEL_TWO);
 
 // and the second melody
-int notes2[] = {NOTE_C4, NOTE_SILENCE, NOTE_G4, NOTE_SILENCE};
-double durations2[] = {2, 2, 6, 2, 2, 6, 2, 2, 2, 2, 2};
-int melodyLength2 = 11;
+int notes2[] = {NOTE_C4, NOTE_C4, NOTE_C4, NOTE_DS8, NOTE_DS8, NOTE_DS8, NOTE_C4, NOTE_C4, NOTE_C4};
+double durations2[] = {5, 5, 5, 30, 30, 30, 5, 5, 5};
+int melodyLength2 = 9;
 
 void setup()
 {
